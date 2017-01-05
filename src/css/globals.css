@@ -1,0 +1,105 @@
+/*This file contain our wrapper, styles for background and fonts */
+
+body {
+  background-image: url("../images/bg.jpg");
+}
+
+.wrapper {
+  //   display: flex;
+  //   flex-direction: column;
+  //   justify-content: center;
+  //   align-self: center;
+  //   align-items: center;
+  margin: 0 auto;
+  width: 500px;
+  height: auto;
+  background-color: #efefef;
+  box-shadow: -4px 7px 25px 0px rgba(0, 0, 0, 1);
+}
+
+.nav {
+  display: flex!important;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.header__nav {
+  display: flex;
+  flex-direction: row;
+  &-item {
+    display: flex;
+  }
+}
+
+.search {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.search__field {
+  display: flex!important;
+  flex: 1 1 auto;
+}
+
+
+/*Header and links*/
+
+header h1 {
+  margin: 0;
+  font-size: 24pt;
+  text-align: center;
+  word-spacing: 30px;
+  line-height: 0.8;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+header :last-child {
+  color: green;
+}
+
+header :first-child {
+  color: black;
+}
+
+header h1 a {
+  text-decoration: none !important;
+  font-family: "HelveticaRegular";
+}
+
+header h1 :last-child:active {
+  color: black;
+}
+
+
+/* font-family: "HelveticaRegular"; */
+
+@font-face {
+  font-family: "HelveticaRegular";
+  src: url("../fonts/HelveticaRegular/HelveticaRegular.eot");
+  src: url("../fonts/HelveticaRegular/HelveticaRegular.eot?#iefix")format("embedded-opentype"), url("../fonts/HelveticaRegular/HelveticaRegular.woff") format("woff"), url("../fonts/HelveticaRegular/HelveticaRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+
+/* font-family: "HelveticaLight"; */
+
+@font-face {
+  font-family: "HelveticaLight";
+  src: url("../fonts/HelveticaLight/HelveticaLight.eot");
+  src: url("../fonts/HelveticaLight/HelveticaLight.eot?#iefix")format("embedded-opentype"), url("../fonts/HelveticaLight/HelveticaLight.woff") format("woff"), url("../fonts/HelveticaLight/HelveticaLight.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+
+/* font-family: "HelveticaThin"; */
+
+@font-face {
+  font-family: "HelveticaThin";
+  src: url("../fonts/HelveticaThin/HelveticaThin.eot");
+  src: url("../fonts/HelveticaThin/HelveticaThin.eot?#iefix")format("embedded-opentype"), url("../fonts/HelveticaThin/HelveticaThin.woff") format("woff"), url("../fonts/HelveticaThin/HelveticaThin.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
