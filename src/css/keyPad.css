@@ -37,6 +37,7 @@ main .buttonsWithNumbers button:focus {
     width: 210px;
     height: 40px;
     margin-top: 8px;
+    margin-bottom: 8px;
     background-color: #7fff79;
     color: black;
     font-family: "HelveticaRegular";

@@ -1,4 +1,4 @@
-.wrapper main .info {
+.info {
     background: white;
     font-size: 21pt;
     color: black;
@@ -6,8 +6,19 @@
     padding-left: 20px;
 }
 
-.wrapper main .buttons button {
+.info p {
+    margin-bottom: 0px;
+}
+
+.buttons {
+    margin: 0 auto;
+}
+
+.buttons button {
     width: 120px;
-    margin-top: 25px;
     border-radius: 20px;
+    margin-bottom: 10px;
+}
+.buttons :first-child{
+    margin-top: 10px;
 }
