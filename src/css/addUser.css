@@ -1,4 +1,4 @@
-.wrapper main input {
+.form-control {
     border-radius: 0;
     border: 0;
     font-size: 14pt;
@@ -6,19 +6,16 @@
     padding-left: 10px;
 }
 
-.wrapper main p {
+.main p {
     font-family: "HelveticaRegular";
     font-size: 16pt;
     margin-bottom: 5px;
-    margin-top: 10px;
+    padding-top: 5px;
     margin-left: 10px;
 }
 
-.successBut {
-    margin: 0 !important;
-}
-
 .successBut button {
-    margin-top: 6px;
+    margin-top: 15px;
+    margin-bottom: 10px;
     width: 200px;
 }

@@ -14,47 +14,48 @@
 </head>
 <body>
 
-<div class="wrapper">
 
-    <header>
-        <h1>
-            <a href="search.html">SEARCH</a>
-            <a href="keypad.html">KEYPAD</a>
-        </h1>
-    </header>
+<header class="header wrapper">
+    <nav class="nav header__nav">
+        <a href="../search.html" class="header__nav-item">
+            <h1>SEARCH</h1>
+        </a>
+        <a href="../keypad.html" class="header__nav-item header_nav-item_green">
+            <h1>KEYPAD</h1>
+        </a>
+    </nav>
+</header>
 
-    <main>
+<main class="main wrapper">
 
-        <p class="enteredNum">
-            <input type="text"
-                   value="+3(063)111-11-11"
-                   readonly>
-        </p>
+    <div class="enteredNum">
+        <input type="text"
+               value="+3(063)111-11-11"
+               readonly>
+    </div>
 
-        <p class="buttonsWithNumbers">
-            <button type="button" class="btn btn-default">1</button>
-            <button type="button" class="btn btn-default">2</button>
-            <button type="button" class="btn btn-default">3</button>
-            <br>
-            <button type="button" class="btn btn-default">4</button>
-            <button type="button" class="btn btn-default">5</button>
-            <button type="button" class="btn btn-default">6</button>
-            <br>
-            <button type="button" class="btn btn-default">7</button>
-            <button type="button" class="btn btn-default">8</button>
-            <button type="button" class="btn btn-default">9</button>
-            <br>
-            <button type="button" class="btn btn-default">+</button>
-            <button type="button" class="btn btn-default">0</button>
-            <button type="button" class="btn btn-default">del</button>
-            <br>
-            <button id="add" type="button" class="btn btn-success">Add number</button>
-            <br>
-        </p>
+    <div class="buttonsWithNumbers">
+        <button type="button" class="btn btn-default">1</button>
+        <button type="button" class="btn btn-default">2</button>
+        <button type="button" class="btn btn-default">3</button>
+        <br>
+        <button type="button" class="btn btn-default">4</button>
+        <button type="button" class="btn btn-default">5</button>
+        <button type="button" class="btn btn-default">6</button>
+        <br>
+        <button type="button" class="btn btn-default">7</button>
+        <button type="button" class="btn btn-default">8</button>
+        <button type="button" class="btn btn-default">9</button>
+        <br>
+        <button type="button" class="btn btn-default">+</button>
+        <button type="button" class="btn btn-default">0</button>
+        <button type="button" class="btn btn-default">del</button>
+        <br>
+        <button id="add" type="button" class="btn btn-success">Add number</button>
+        <br>
+    </div>
 
-    </main>
-
-</div>
+</main>
 
 </body>
 </html>
