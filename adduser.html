@@ -8,11 +8,12 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
     crossorigin="anonymous">
   <link rel="stylesheet" href="src/css/globals.css">
-  <link rel="stylesheet" href="src/css/account.css">
-  <title>Account</title>
+  <link rel="stylesheet" href="src/css/addUser.css">
+  <title>Add user</title>
 </head>
 
 <body>
+
 
   <header class="header wrapper">
     <nav class="nav header__nav">
@@ -22,29 +23,28 @@
       <a href="keypad.html" class="header__nav-item header_nav-item_green">
         KEYPAD
       </a>
-      <a href="adduser.html" class="header__nav-item header_nav-item_green">
-        addUser
+      <a href="account.html" class="header__nav-item header_nav-item_green">
+        ACCOUNT
       </a>
     </nav>
   </header>
 
   <main class="main wrapper">
+    <p>First name:</p>
+    <input class="form-control" type="text" placeholder="First name">
+    <p>Second name:</p>
+    <input class="form-control" type="text" placeholder="Second name">
+    <p>Mail:</p>
+    <input class="form-control" type="text" placeholder="Mail">
+    <p>Number:</p>
+    <input class="form-control" type="text" placeholder="Number">
 
-    <div class="info">
-      <p> First Name : Ivan<br> Second Name: Pupkin<br> Mail: example@example.com<br> Number: +3(063)111-11-11
-      </p>
-    </div>
-
-    <div class="buttons text-center">
-      <button type="button" class="btn btn-success">CALL</button>
-      <br>
-      <button type="button" class="btn btn-info">EDIT</button>
-      <br>
-      <button type="button" class="btn btn-danger">DELETE</button>
-      <br>
+    <div class="text-center successBut">
+      <button type="button" class="btn btn-success">Success</button>
     </div>
 
   </main>
+
 
 </body>
 
